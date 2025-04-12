@@ -1,0 +1,45 @@
+/* BASIC STYLING TOOLS
+
+PRIMARY:-
+Background-color-main: ;
+Background-color-light: ;
+Color-main: ;
+Color-light: ;
+
+Font-size-main: ;
+Font-size-big: ;
+Font-weight-main: ;
+Font-weight-big: ;
+
+SECONDARY:-
+Background-color-main: ;
+Background-color-light: ;
+Color-main: ;
+Color-light: ;
+
+Font-size-main: ;
+Font-size-big: ;
+Font-weight-main: ;
+Font-weight-big: ;
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  width: 100%;
+  padding: 10px 50px;
+  border-bottom: 1px solid #3f91d4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
