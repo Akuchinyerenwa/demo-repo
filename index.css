@@ -188,6 +188,7 @@ main {
 }
 
 .template a {
+  display: inline-block;
   background-color: #58a435;
   color: #d9eaf9;
   padding: 5px 30px;
@@ -229,6 +230,25 @@ main {
     padding: 5px 10px;
     font-size: 0.75rem;
   }
+
+  .hero h1 {
+    font-size: 1.6rem;
+  }
+
+  .hero > p {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+
+  .template {
+    padding: 10px;
+    max-width: 230px;
+  }
+
+  .template p {
+    font-size: 0.85rem;
+  }
 }
 
 /* Media of 520px Max Width */
@@ -249,7 +269,7 @@ main {
     position: absolute;
     top: 100%;
     left: -100%;
-    background-color: rgba(27, 27, 27, 0.2);
+    background-color: rgba(27, 27, 27, 0.8);
     transition: 0.5s;
   }
 
@@ -259,8 +279,10 @@ main {
 
   .link-list li {
     font-size: 0.95rem;
+    font-weight: 600;
     letter-spacing: 1px;
     line-height: 2rem;
+    border-bottom: 1px solid #239cd0;
   }
 
   .link-list li:hover,
@@ -333,5 +355,40 @@ main {
   #hamburger-check:checked ~ .header-hamburger > .hamburger-bar::after {
     transform: translateY(-9px) rotate(45deg);
     background-color: rgba(27, 27, 27, 0.6);
+  }
+
+  main {
+    padding: 0 10px;
+  }
+
+  .hero {
+    padding: 20px;
+  }
+
+  .hero h1 {
+    font-size: 1rem;
+    letter-spacing: -1px;
+  }
+
+  .hero > p {
+    font-size: 0.88rem;
+  }
+
+  .template {
+    margin-bottom: 20px;
+    max-width: 90%;
+  }
+
+  .template h4,
+  .template p {
+    margin-bottom: 6px;
+  }
+
+  .template h4 {
+    font-size: 0.95rem;
+  }
+
+  .template a {
+    font-size: 0.88rem;
   }
 }
