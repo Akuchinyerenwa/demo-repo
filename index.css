@@ -1,10 +1,8 @@
 /* BASIC STYLING TOOLS
 
 PRIMARY:-
-Background-color-main: ;
-Background-color-light: ;
-Color-main: ;
-Color-light: ;
+color-main: #239cd0;
+color-light: ;
 
 Font-size-main: ;
 Font-size-big: ;
@@ -12,9 +10,7 @@ Font-weight-main: ;
 Font-weight-big: ;
 
 SECONDARY:-
-Background-color-main: ;
-Background-color-light: ;
-Color-main: ;
+Color-main: #d3d3d3;
 Color-light: ;
 
 Font-size-main: ;
@@ -36,6 +32,8 @@ body {
   overflow-x: hidden;
 }
 
+/* THIS PART IS FOR THE HEADER */
+
 header {
   width: 100%;
   padding: 10px 50px;
@@ -46,6 +44,7 @@ header {
   position: relative;
 }
 
+/* The Header Logo */
 .logo {
   border: 1px solid #239cd0;
   border-radius: 10px;
@@ -65,6 +64,7 @@ header {
   height: 50px;
 }
 
+/* This Is For The Header Navbar */
 nav {
   display: flex;
   align-items: center;
@@ -75,6 +75,7 @@ nav {
   display: none;
 }
 
+/* The Navbar Link List */
 .link-list {
   display: flex;
   gap: 30px;
@@ -97,6 +98,7 @@ nav {
   cursor: pointer;
 }
 
+/* The Navbar Link Button */
 .link-btn {
   padding: 10px 15px;
   border: none;
@@ -118,6 +120,93 @@ nav {
   display: none;
 }
 
+/* THIS PART IS FOR THE MAIN */
+
+main {
+  padding: 0 20px;
+}
+
+/* This Is For The Main Hero */
+.hero {
+  background-color: #239cd0;
+  min-height: calc(100vh - 70px);
+  padding: 30px;
+}
+
+.hero h1,
+.hero > p {
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.1rem;
+  color: #d9eaf9;
+  text-shadow: 0 1px 2px #1b1b1b;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+  margin-bottom: 5px;
+}
+
+.hero > p {
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+/* The Hero Templates Container */
+.templates-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+/* The Hero Template */
+.template {
+  background-color: #d3d3d3;
+  padding: 20px;
+  margin-bottom: 30px;
+  max-width: 300px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 1px 6px #1b1b1b;
+  transition: 0.4s;
+}
+
+.template:hover,
+.template:active {
+  box-shadow: 0 2px 2px #58a435;
+}
+
+.template h4,
+.template p {
+  margin-bottom: 10px;
+}
+
+.template p {
+  font-size: 0.95rem;
+}
+
+.template a {
+  background-color: #58a435;
+  color: #d9eaf9;
+  padding: 5px 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  box-shadow: 0 1px 4px #1b1b1b;
+  transition: 0.4s;
+}
+
+.template a:hover,
+.template a:active {
+  color: #d3d3d3;
+  box-shadow: 0 1px 2px #1b1b1b;
+}
+
+/* THIS PART IS FOR MEDIA QUERIES */
+/* Media Of 820px Max Width */
 @media (max-width: 820px) {
   header {
     padding: 10px 20px;
@@ -142,6 +231,7 @@ nav {
   }
 }
 
+/* Media of 520px Max Width */
 @media (max-width: 520px) {
   .hamburger-check {
     display: block;
