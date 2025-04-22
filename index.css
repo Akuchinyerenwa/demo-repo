@@ -25,6 +25,7 @@ Font-weight-big: ;
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -37,11 +38,14 @@ body {
 header {
   width: 100%;
   padding: 10px 50px;
+  background-color: #fff;
   border-bottom: 1px solid #239cd0;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: relative;
+  position: fixed;
+  top: 0;
+  z-index: 100;
 }
 
 /* The Header Logo */
@@ -123,6 +127,7 @@ nav {
 /* THIS PART IS FOR THE MAIN */
 
 main {
+  margin-top: 70px;
   padding: 0 20px;
 }
 
@@ -204,6 +209,80 @@ main {
 .template a:active {
   color: #d3d3d3;
   box-shadow: 0 1px 2px #1b1b1b;
+}
+
+/* This Is For The Main About */
+.about {
+  margin: 50px auto;
+  border: 1px solid #239cd0;
+  overflow-x: hidden;
+}
+
+.about h2 {
+  background-color: #239cd0;
+  color: #d9eaf9;
+  font-size: 2.5rem;
+  text-align: center;
+  line-height: 5rem;
+}
+
+.sub-heading {
+  padding: 30px;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #239cd0;
+  text-align: center;
+}
+
+/* The About Article */
+.about-article {
+  padding: 0 40px 30px;
+}
+
+.about-flex {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.about-font {
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
+
+.about-spacing {
+  margin-bottom: 30px;
+}
+
+.about-article p span {
+  font-weight: 600;
+}
+
+.about-article h4 {
+  margin-bottom: 20px;
+}
+
+.about-image {
+  width: 45%;
+  border-radius: 10px;
+}
+
+/* The About Info */
+.about-info {
+  background-color: #d3d3d3;
+  padding: 40px;
+}
+
+.about-info-container ul {
+  padding-left: 20px;
+}
+
+.about-info-container ul li {
+  list-style-type: disc;
+}
+
+.about-info-container ul li span {
+  font-weight: 600;
 }
 
 /* THIS PART IS FOR MEDIA QUERIES */
