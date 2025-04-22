@@ -328,6 +328,53 @@ main {
   .template p {
     font-size: 0.85rem;
   }
+
+  .about {
+    margin: 40px auto;
+  }
+
+  .about h2 {
+    font-size: 1.8rem;
+    line-height: 4rem;
+  }
+
+  .sub-heading {
+    font-size: 1.7rem;
+  }
+
+  .about-article {
+    padding: 0 60px 30px;
+  }
+
+  .about-flex {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .about-font {
+    font-size: 1rem;
+    line-height: 1.3rem;
+  }
+
+  .about-spacing {
+    margin-bottom: 20px;
+  }
+
+  .about-article h4 {
+    margin-bottom: 10px;
+  }
+
+  .about-image {
+    width: 70%;
+  }
+
+  .about-info {
+    padding: 10px 40px 40px;
+  }
+
+  .about-info-container ul {
+    padding-left: 10px;
+  }
 }
 
 /* Media of 520px Max Width */
@@ -469,5 +516,41 @@ main {
 
   .template a {
     font-size: 0.88rem;
+  }
+
+  .about h2 {
+    font-size: 1.2rem;
+    line-height: 3rem;
+  }
+
+  .sub-heading {
+    padding: 10px;
+    font-size: 1.1rem;
+  }
+
+  .about-article {
+    padding: 0 30px 20px;
+  }
+
+  .about-flex {
+    gap: 10px;
+  }
+
+  .about-font {
+    font-size: 0.85rem;
+    line-height: 1rem;
+  }
+
+  .about-spacing {
+    margin-bottom: 15px;
+  }
+
+  .about-article h4 {
+    margin-bottom: 7px;
+  }
+
+  .about-image {
+    width: 90%;
+    border-radius: 10px;
   }
 }
