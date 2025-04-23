@@ -410,6 +410,19 @@ main {
   .about-info-container ul {
     padding-left: 10px;
   }
+
+  .faqs ul {
+    padding: 30px 30px 10px;
+  }
+
+  .faqs ul li {
+    font-size: 0.85rem;
+    line-height: 1.3rem;
+  }
+
+  .faqs ul li span {
+    font-size: 1.3rem;
+  }
 }
 
 /* Media of 520px Max Width */
@@ -587,5 +600,20 @@ main {
   .about-image {
     width: 90%;
     border-radius: 10px;
+  }
+
+  .faqs ul {
+    padding: 25px 15px 10px;
+  }
+
+  .faqs ul li {
+    font-size: 0.75rem;
+    line-height: 1.1rem;
+    margin-bottom: 15px;
+    gap: 20px;
+  }
+
+  .faqs ul li span {
+    font-size: 1.1rem;
   }
 }
