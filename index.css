@@ -290,6 +290,7 @@ main {
   font-weight: 600;
 }
 
+/* This Is For The Main FAQs */
 .faqs {
   background-color: #d3d3d3;
 }
@@ -318,6 +319,155 @@ main {
 .faqs ul li span {
   display: inline-block;
   font-size: 1.5rem;
+}
+
+/* This Is For The Main Contact */
+.contact {
+  padding: 80px 50px 50px;
+  background-color: #239cd0;
+  color: #d9eaf9;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.contact > div {
+  width: 200px;
+}
+
+.contact-logo h4 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.7rem;
+  font-weight: 600;
+  letter-spacing: -1px;
+  margin-bottom: 20px;
+}
+
+.contact-logo h4 img {
+  height: 2rem;
+  border-radius: 3px;
+}
+
+.contact-logo p {
+  font-weight: 500;
+  letter-spacing: -1px;
+}
+
+/* The Contact Social Link */
+.social-link li {
+  margin-bottom: 15px;
+  font-size: 0.9rem;
+}
+
+.social-link li a {
+  color: inherit;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: 0.4s;
+}
+
+.social-link li a:hover,
+.social-link li a:active {
+  color: #58a435;
+}
+
+.social-link li a span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  border: 1px solid #d9eaf9;
+  border-radius: 50%;
+  transition: 0.4s;
+}
+
+.social-link li a:hover > span,
+.social-link li a:active > span {
+  border: 1px solid #58a435;
+}
+
+.social-link ul li a span img {
+  height: 20px;
+}
+
+.social-link li a:hover > span > img,
+.social-link li a:active > span > img {
+  background-color: #58a435;
+}
+
+/* The Contact Main Contact */
+.contact-heading {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.main-contact a {
+  display: block;
+  color: #d9eaf9;
+  margin-bottom: 5px;
+  transition: 0.4s;
+}
+
+.main-contact a:hover,
+.main-contact a:active {
+  color: #58a435;
+}
+
+.contact-login a {
+  color: #d9eaf9;
+  transition: 0.4s;
+}
+
+.contact-login a:hover,
+.contact-login a:active {
+  color: #58a435;
+}
+
+/* The Contact Subscription */
+.subscription p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.subscribe-box {
+  border: 2px solid #d9eaf9;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  overflow: hidden;
+}
+
+.subscribe-box span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 100%;
+}
+
+.span-white {
+  background-color: #d9eaf9;
+  color: #1b1b1b;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.span-white:hover,
+.span-white:active {
+  background-color: #58a435;
+  color: #d9eaf9;
 }
 
 /* THIS PART IS FOR MEDIA QUERIES */
