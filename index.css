@@ -598,6 +598,11 @@ footer p a:active {
   .faqs ul li span {
     font-size: 1.3rem;
   }
+
+  footer p {
+    font-size: 0.75rem;
+    line-height: 3rem;
+  }
 }
 
 /* Media of 520px Max Width */
@@ -820,5 +825,10 @@ footer p a:active {
   .subscription p {
     font-size: 1rem;
     margin-bottom: 15px;
+  }
+
+  footer p {
+    font-size: 0.48rem;
+    line-height: 2rem;
   }
 }
