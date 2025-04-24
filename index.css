@@ -328,13 +328,14 @@ main {
   color: #d9eaf9;
   display: flex;
   align-items: start;
-  justify-content: space-between;
+  justify-content: space-around;
   gap: 10px;
   flex-wrap: wrap;
 }
 
 .contact > div {
   width: 200px;
+  margin-bottom: 20px;
 }
 
 .contact-logo h4 {
@@ -765,5 +766,35 @@ main {
 
   .faqs ul li span {
     font-size: 1.1rem;
+  }
+
+  .contact-logo h4 {
+    font-size: 1.5rem;
+    letter-spacing: -1px;
+    margin-bottom: 10px;
+  }
+
+  .social-link li {
+    margin-bottom: 10px;
+    font-size: 0.85rem;
+  }
+
+  .social-link li a span {
+    height: 30px;
+    width: 30px;
+  }
+
+  .social-link ul li a span img {
+    height: 18px;
+  }
+
+  .contact-heading {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+
+  .subscription p {
+    font-size: 1rem;
+    margin-bottom: 15px;
   }
 }
