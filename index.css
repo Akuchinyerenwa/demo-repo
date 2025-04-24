@@ -471,6 +471,30 @@ main {
   color: #d9eaf9;
 }
 
+/* THIS PART IS FOR THE FOOTER */
+
+footer {
+  background-color: #1b1b1b;
+}
+
+footer p {
+  color: #d9eaf9;
+  font-size: 0.85rem;
+  text-align: center;
+  line-height: 4rem;
+}
+
+footer p a {
+  color: inherit;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+footer p a:hover,
+footer p a:active {
+  color: #58a435;
+}
+
 /* THIS PART IS FOR MEDIA QUERIES */
 /* Media Of 820px Max Width */
 @media (max-width: 820px) {
